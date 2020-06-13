@@ -191,6 +191,7 @@ I learned that CSS transition is really realy powerful.
 
 ####  Menu Overlay & Responsiveness
 
+This section is mainly about implementing menu overlay and responsiveness of the menu on different screen sizes.
 I learned that to have opacity for element we can use opacity css property:
 ```
 opacity: 0.9;
@@ -235,6 +236,21 @@ I also learned that if we want some item to go in from left or right we should u
 
 ####  Page With CSS Grid
 
+This section is about the About Page of the portfolio.
+In this section I learned how to use function inside SASS. For example from this part the interesting thing was to set text-color function based on the background color of the page
+
+```
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+```
+and to use the function above just use it like this:
+`color: set-text-color($primary-color);`
 
 ####  Work and Contact Pages
 
