@@ -291,6 +291,61 @@ I learned how to stack items on top of each other on mobile with `CSS Grid`, `gr
 
 ####  Work and Contact Pages
 
+This section is about the `Work` and `Contact` pages, the techs used in this sections are CSS Grid and Flexbox.
+I learned that to create an anchor tag that doesn't go anywhere we can use `"#!"`
+```
+<a href="#!">
+  <img src="img/projects/project1.jpg" alt="Project">
+</a>
+```
+
+I also learned that in order to have gap between grid items we use `grid-gap: 20px` for instance.
+
+If I would like to add style of img on hover we can do some SASS nesting with `&:hover` like this code snippet: 
+```
+img {
+  width: 100%;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+```
+
+One very interesting thing that I discovered from the lesson was how to use inheritance with classes in SASS
+For example, we have this `.button` class
+```
+.btn {
+  display: block;
+  ...
+}
+```
+
+If we want to have a class `.btn-dark` that extends that `.button` class we can simply do:
+```
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: #fff;
+}
+```
+
+I also learned more about having different `grid-template-columns` for each viewport:
+
+```
+@include mediaXl {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@include mediaSm {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+```
+
 ####  Website Deployment
 
 
