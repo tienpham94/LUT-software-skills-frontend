@@ -252,6 +252,43 @@ In this section I learned how to use function inside SASS. For example from this
 and to use the function above just use it like this:
 `color: set-text-color($primary-color);`
 
+I also discovered a lot more about `CSS Grid`, I'm not very experience with it, but now I know more about `CSS Grid`. We can use `grid-template-areas` like this: 
+```
+grid-template-areas:
+    'bioimage bio bio'
+    'job1 job2 job3';
+
+and declare the grid area for each css element:
+.bio {
+    grid-area: bio;
+  }
+```
+
+We can simplify the `grid-template-columns` like this:
+```diff
+- grid-template-columns: 1fr 1fr 1fr;
++ grid-template-columns: repeat(3, 1fr);
+```
+
+I'm also happy to learn more about the sticky footer, it is achieved by changing `height` of main into `min-height` 
+
+```diff
+- height: 100%;
++ min-height: calc(100vh - 60px);
+```
+
+I learned how to stack items on top of each other on mobile with `CSS Grid`, `grid-template-areas` is definitely very powerful.
+```
+.about-info {
+    grid-template-areas:
+      'bioimage'
+      'bio'
+      'job1'
+      'job2'
+      'job3';
+  }
+```
+
 ####  Work and Contact Pages
 
 ####  Website Deployment
