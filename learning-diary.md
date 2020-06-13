@@ -348,5 +348,17 @@ I also learned more about having different `grid-template-columns` for each view
 
 ####  Website Deployment
 
+Deploying website to github pages is an interesting technique to learn, I have done it before, but it is always good to relearn it.
 
+First we need to add gh-pages to `package.json`
+```
+yarn add gh-pages
+```
 
+After that, we need to add the homepage and deploy script to `package.json`:
+```
+"homepage": "https://tienpham94.github.io/modern_portfolio",
+"deploy": "gh-pages -d dist"
+```
+
+And run `yarn deploy`, after that we can access the page at: https://tienpham94.github.io/modern_portfolio
