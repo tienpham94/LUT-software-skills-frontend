@@ -230,6 +230,9 @@ This is also the first time that I do `for loop` in SASS, didn't know that it wa
 }
 ```
 
+I also learned that if we want some item to go in from left or right we should use the first parameter of `translate3d()` like this: `transform: translate3d(100%, 0, 0)`
+
+
 ####  Page With CSS Grid
 
 
