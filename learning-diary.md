@@ -191,6 +191,45 @@ I learned that CSS transition is really realy powerful.
 
 ####  Menu Overlay & Responsiveness
 
+I learned that to have opacity for element we can use opacity css property:
+```
+opacity: 0.9;
+```
+
+I learned a super amazing trick, in sass if we have a class of `.menu` and if we want to target `.menu-branding` class inside that css class we can use `&-branding,`
+```
+.menu {
+  &-branding {
+    ...css goes here
+  }
+}
+```
+
+Even though I'm familiar with flexbox I had the opportunity to learn more about it.
+
+I learned that to darken a color we can use `darken` of `sass`
+```
+background: darken($primary-color, 5);
+```
+
+I also learned about `translate3d` which is what I never used before, take a look at this code example:
+```
+transform: translate3d(0, 100%, 0);
+```
+
+If we want it to come from the bottom we can set the second parameter of translate3d to -100%
+
+I also learned that if you want to make an image a circle we can use `border-radius: 50%`
+
+This is also the first time that I do `for loop` in SASS, didn't know that it was possible before. It is interesting to set a delay for each item differently using loop in SASS
+```
+@for $x from 1 through 4 {
+  .nav-item:nth-child(#{$x}) {
+    transition-delay: $x * 0.1s;
+  }
+}
+```
+
 ####  Page With CSS Grid
 
 
