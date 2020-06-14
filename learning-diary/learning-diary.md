@@ -375,3 +375,5 @@ The project I made is a portfolio website, a place where I showcase my previous 
   + Media queries for responsiveness
   
 It is quite a simple website with technologies that I'm familiar with, but there are challenges as well. It's been a long time since I code something without a framework (like React.js), so it is a good chance to revise working with simple HTML and CSS pages like the old days. I'm very familiar with Flexbox and Media queries, but I'm not that used to CSS Grid, so it is an opportunity to learn more about CSS Grid also.
+
+The site is deployed at: https://tien-lut-frontend-project.netlify.app/
