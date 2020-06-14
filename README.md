@@ -13,6 +13,8 @@ Course project code: [Project Code](https://github.com/tienpham94/LUT-software-s
 
 Course project demo [Demo deployed on Netlify](https://tien-lut-frontend-project.netlify.app/)
 
+Course project Youtube demo [Youtube](https://www.youtube.com/watch?v=mi-o47SlHm4)
+
 The project I made is a portfolio website, a place where I showcase my previous projects and provides a way for people to contact me to discuss about new work opportunities. It is a simple website with navigation, built with the following technologies:
 - HTML 
 - CSS 
