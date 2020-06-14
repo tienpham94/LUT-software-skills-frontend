@@ -26,3 +26,5 @@ The project I made is a portfolio website, a place where I showcase my previous 
   + Flexbox
   + CSS Grid
   + Media queries for responsiveness
+
+![image](https://user-images.githubusercontent.com/25751050/84597637-057dfd80-ae6e-11ea-8ba1-489bf871704c.png)
