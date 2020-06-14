@@ -346,6 +346,8 @@ I also learned more about having different `grid-template-columns` for each view
 }
 ```
 
+### 14.6.2020
+
 ####  Website Deployment
 
 Deploying website to github pages is an interesting technique to learn, I have done it before, but it is always good to relearn it.
@@ -362,3 +364,14 @@ After that, we need to add the homepage and deploy script to `package.json`:
 ```
 
 And run `yarn deploy`, after that we can access the page at: https://tienpham94.github.io/modern_portfolio
+
+####  Project
+The project I made is a portfolio website, a place where I showcase my previous projects and provides a way for people to contact me to discuss about new work opportunities. It is a simple website with navigation, built with the following technologies:
+- HTML 
+- CSS 
+  + CSS variables
+  + Flexbox
+  + CSS Grid
+  + Media queries for responsiveness
+  
+It is quite a simple website with technologies that I'm familiar with, but there are challenges as well. It's been a long time since I code something without a framework (like React.js), so it is a good chance to revise working with simple HTML and CSS pages like the old days. I'm very familiar with Flexbox and Media queries, but I'm not that used to CSS Grid, so it is an opportunity to learn more about CSS Grid also.
